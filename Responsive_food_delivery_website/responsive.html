@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- adding another style sheet to make it responsive -->
+    <link rel="stylesheet" media="screen and (max-width:550px)" href="/css/phone.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Food Delivery Responsive</title>
+</head>
+
+<body>
+    <!-- navabar -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo.png" alt="ORder FoOd">
+        </div>
+        <ul>
+
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Order</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- home section for a little intro -->
+    <section id="home">
+        <h1 class="h1-primary">
+            Welcome to Order Now Restraunt
+        </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam repellat quibusdam iure consequatur
+            animi?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, est.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <!-- now a section for services -->
+    <section id="services">
+        <h1 class="h1-primary center">
+            Our Services
+        </h1>
+        <div class="container">
+            <div class="box center">
+                <h2 class="center">Food Ordering </h2>
+                <!-- <div class="img"> -->
+                <img src="images/service1.png" alt="not found">
+                <!-- </div> -->
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic nihil iste ipsa
+                    modi et ab
+                    veniam accusamus non consequatur, earum necessitatibus officia sint quia ex dolore minus sapiente
+                    quam. Quas, laborum.</p>
+            </div>
+            <div class="box center">
+                <h2 class="center">Catering</h2>
+                <!-- <div class="img"> -->
+                <img src="images/service2.png" alt="not found">
+                <!-- </div> -->
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic nihil iste ipsa
+                    modi et ab
+                    veniam accusamus non consequatur, earum necessitatibus officia sint quia ex dolore minus sapiente
+                    quam. Quas, laborum.</p>
+            </div>
+            <div class="box center">
+                <!-- <div class="img"> -->
+                    <h2 class="center">Bulk Ordering</h2>
+                <img src="images/delivery_boy.png" alt="not found">
+                <!-- </div> -->
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic nihil iste ipsa
+                    modi et ab
+                    veniam accusamus non consequatur, earum necessitatibus officia sint quia ex dolore minus sapiente
+                    quam. Quas, laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section for clients -->
+    <!-- <section class="clients"> a better way to give a id would be clients-section -->
+    <section id="clients-section"> 
+        <h1 class="h1-primary center">
+            Our clients
+        </h1>
+        <!-- <div class="container"> a better way to identify while writing css would be using below id ..think so ? -->
+        <div id="clients">
+            <div class="box center">
+                <img src="images/client1.png" alt="not found">
+            </div>
+            <div class="box center">
+                <img src="images/client2.png" alt="not found">
+            </div>
+            <div class="box center">
+                <img src="images/client3.png" alt="not found">
+            </div>
+            <div class="box center">
+                <img src="images/client4.png" alt="not found">
+            </div>
+            <div class="box center">
+                <img src="images/client5.png" alt="not found">
+            </div>
+        </div>
+    </section>
+    <!-- section for form -->
+    <section id="form-section">
+        <h1 class="h1-primary center">
+            Contact Us
+        </h1>
+        <div id="form">
+            <form action="backend.php" class="form-group center">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="enter your name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+                <label for="phone">Phone no:</label>
+                <input type="tel" name="phone" id="phone" placeholder="enter your mobile no">
+                <label for="ques">Query:</label>
+                <textarea name="ques" id="ques" cols="30" rows="10" placeholder="enter your query here please."></textarea>
+            </form>
+        </div>
+    </section>
+
+    <!-- now lets add a footer  -->
+    <footer>
+        <p class="center">
+            CopyRight &copy; <br> All Rights Reserved  Order Now Restraunt &reg;
+        </p>
+    </footer>
+</body>
+
+</html>

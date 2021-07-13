@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            color: beige;
+            text-align: center;
+        }
+
+        /* header{
+            background-color: aquamarine;
+        } */
+        body {
+            background-image: url(images/bg1.jpg);
+            background-size: cover;
+            /* height: 10000px; */
+            background-repeat: no-repeat;
+            font-family: 'Baloo Bhai 2', cursive;
+            /* background-position: center; */
+            /* vertical-align: center; */
+        }
+
+        .left {
+            float: left;
+            display: inline-block;
+            /* border: 2px solid blue; */
+            padding: 8px 15px;
+        }
+
+        .nav {
+            position: absolute;
+            left: 357px;
+            display: inline-block;
+            /* border: 2px solid blue; */
+            width: 40%;
+
+            /* margin: auto; */
+        }
+
+        .right {
+            float: right;
+            /* border: 2px solid blue; */
+            /* display: inline-block; */
+            padding: 15px 3px;
+
+        }
+
+        .left img {
+            border-radius: 10px;
+            height: 70px;
+            width: 80px;
+        }
+
+        .navu li {
+            display: inline;
+            padding: 0px 5px;
+
+        }
+
+        nav ul {
+            padding: 0px;
+            position: static;
+        }
+
+        ul li a {
+            text-decoration: none;
+            /* color: greenyellow; */
+
+        }
+
+        .btn {
+            /* float: left; */
+            background-color: transparent;
+            color: violet;
+            border-radius: 15px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        .container {
+            width: 33%;
+            display: block;
+            position: absolute;
+            top: 10em;
+            left: 5em;
+            border: 4px solid rgb(116, 121, 116);
+            margin: 4px 7px;
+            padding: 25px 52px;
+            border-radius: 10px;
+        }
+        .container h1{
+            font-size: 25px;
+            
+        }
+        .in input, .in button{
+            color: black;
+            width: 300px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h">
+        <header>
+
+            <div class="left">
+                <img src="images/logo2.png" alt="no image">
+                <div id="owner">
+                    SATYA GYM
+                </div>
+                <!-- hello baba I am left -->
+            </div>
+            <nav class="nav">
+                <!-- hello baba I am center -->
+                <ul class="navu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">MEMBERSHIP</a></li>
+                    <li><a href="#">MERCH</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <!-- hello baba I am right -->
+                <button class="btn">Contact Us</button>
+                <!-- <button class="btn">avail coupon code</button> -->
+            </div>
+
+        </header>
+    </div>
+
+    <div class="container">
+        <h1>join the best gym of allahabad </h1>
+        <form action="backend.php" method="get">
+            <div class="in">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="in">
+                <input type="text" placeholder="enter your age">
+
+            </div>
+            <div class="in">
+
+                <input type="text" placeholder="enter your gender">
+            </div>
+            <div class="in">
+
+                <input type="text" placeholder="enter your email">
+            </div>
+            <div class="in">
+
+                <input type="text" placeholder="enter your mobile no">
+            </div>
+            <div class="in">
+                <button type="submit">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

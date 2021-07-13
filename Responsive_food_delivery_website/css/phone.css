@@ -1,0 +1,14 @@
+body{
+    /* background: black; */
+}
+#home{
+    font-size: 1rem;
+}
+
+#services .container{
+    flex-direction: column;
+}
+
+.btn{
+    width: 30%;
+}
